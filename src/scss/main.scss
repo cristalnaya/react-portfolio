@@ -1,0 +1,27 @@
+// Theming bootstrap
+// https://getbootstrap.com/docs/4.0/getting-started/theming/
+//
+// Every Sass variable in Bootstrap 4 includes the !default flag allowing
+// you to override the variable’s default value in your own Sass without
+// modifying Bootstrap’s source code. Copy and paste variables as needed,
+// modify their values, and remove the !default flag. If a variable has
+// already been assigned, then it won’t be re-assigned by the default
+// values in Bootstrap.
+
+// To modify an existing color in our $theme-colors map
+// To add a new color to $theme-colors, add the new key and value:
+$theme-colors: (
+  'primary': #7256ad,
+  'special': #000,
+);
+
+// then import Bootstrap
+@import 'bootstrap';
+
+// then load custom components
+@import 'nav';
+@import 'masthead';
+@import 'footer';
+@import 'particles';
+@import 'svg';
+@import 'hero';
