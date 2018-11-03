@@ -1,3 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url('https://images.unsplash.com/photo-1535341000823-01aa350a4fbb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9e17c6ec715fcb50522c09214b467802&auto=format&fit=crop&w=700&q=80') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Indie Flower', cursive;
+  letter-spacing: 3px;
+}
+.jumbotron {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  text-align: center;
+  margin: auto;
+  width: 85%;
+}
+
+.btn-primary {
+  background-color: #000;
+  border-color: #000;
+}
 
 li {
   font-size: 1.5rem;
