@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.scss';
 import Header from './components/Header';
+import HomePage from './components/HomePage'
 
 
 class App extends Component {
@@ -8,7 +9,8 @@ class App extends Component {
     return (
       <div className="container-fluid">
         <Header className="Header"/>
-        <h1>Portfolio</h1>
+        <HomePage className="HomePage" />
+        
       </div>
     );
   }
