@@ -12,6 +12,7 @@ body {
   text-align: center;
   margin: auto;
   width: 85%;
+  margin-top: 15vh;
 }
 
 .btn-primary {
@@ -21,4 +22,9 @@ body {
 
 li {
   font-size: 1.5rem;
+}
+
+div.show-grid.row {
+  width: fit-content;
+  margin: 25vh auto;
 }
