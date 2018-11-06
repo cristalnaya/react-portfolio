@@ -6,6 +6,7 @@ body {
   font-family: 'Indie Flower', cursive;
   letter-spacing: 3px;
 }
+
 .jumbotron {
   background-color: rgba(0, 0, 0, 0.4);
   color: #fff;
@@ -27,4 +28,45 @@ li {
 div.show-grid.row {
   width: fit-content;
   margin: 25vh auto;
+}
+
+.work a {
+  width: 300px;
+}
+
+.work .arrow {
+  display: inline-block;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+  color: #f4f815;
+}
+
+.arrow {
+ width: 20%;
+  margin-left: 1em;
+  font-size: 2rem;
+  // animation-name: run;
+  // -webkit-animation-name: run;
+  // animation-duration: 1s;
+  // animation-iteration-count: infinite;
+  animation: run 1s ease-in-out infinite;
+}
+
+@keyframes run {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(10px, 0);
+  }
+}
+
+
+@media (max-width: 767px) {
+  .work {
+    width: 100%;
+  }
 }

@@ -1,5 +1,6 @@
 import React from 'react';
-import { Navbar, Nav, NavItem, FormGroup, FormControl, Button } from 'react-bootstrap';
+import { Navbar, Nav, NavItem } from 'react-bootstrap';
+import { FaAngleDoubleRight } from 'react-icons/fa';
 
 class Header extends React.Component {
   render() {
@@ -14,22 +15,22 @@ class Header extends React.Component {
     </Navbar.Header>
     <Navbar.Collapse>
         <Nav>
-        <NavItem eventKey={1} href="#">
-            Home
-        </NavItem>
-        <NavItem eventKey={2} href="#">
-            Contacts
-        </NavItem>
-        <NavItem eventKey={3} href="#">
-            Latest Work
-        </NavItem>
+            <NavItem eventKey={1} href="#">
+                Home
+            </NavItem>
+            <NavItem eventKey={2} href="#">
+                Contacts
+            </NavItem>
         </Nav>
-        <Navbar.Form pullRight>
-        <FormGroup>
-        <FormControl type="text" placeholder="Search" />
-        </FormGroup>{' '}
-        <Button type="submit">Submit</Button>
-        </Navbar.Form>
+        <Nav className="work" pullRight>
+            <NavItem eventKey={1} href="#Latest Work">
+        Latest Work
+            <div className="arrow">
+                <FaAngleDoubleRight />
+            </div>
+            </NavItem>
+     
+      </Nav>
     </Navbar.Collapse>
     </Navbar>
     </div>
