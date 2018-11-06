@@ -19,7 +19,7 @@ class Header extends React.Component {
                 Home
             </NavItem>
             <NavItem eventKey={2} href="#">
-                Contacts
+                About
             </NavItem>
         </Nav>
         <Nav className="work" pullRight>

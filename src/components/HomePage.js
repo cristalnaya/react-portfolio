@@ -1,6 +1,7 @@
 import React from 'react';
 import { Jumbotron, Button, Grid, Row, Col } from 'react-bootstrap';
 import { SocialIcon } from 'react-social-icons';
+import { FaAngleDown } from 'react-icons/fa';
 
 
 class HomePage extends React.Component {
@@ -9,10 +10,8 @@ class HomePage extends React.Component {
           <Grid>
             <Jumbotron className="mainPage">
             <h1>Hi, I am Tina. I am Front-end Web Developer</h1>
-            
-            <p>
-              <Button bsStyle="primary">Learn more, what i do</Button>
-            </p>
+              <p>Learn more, what i do</p>
+              <FaAngleDown className="arrowDown" />
           </Jumbotron>
             
           <Row className="show-grid">

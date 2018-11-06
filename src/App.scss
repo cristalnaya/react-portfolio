@@ -53,6 +53,12 @@ div.show-grid.row {
   animation: run 1s ease-in-out infinite;
 }
 
+.arrowDown {
+  animation: down 1s ease-in-out infinite;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
 @keyframes run {
   0%,
   100% {
@@ -60,7 +66,18 @@ div.show-grid.row {
   }
 
   50% {
-    transform: translate(10px, 0);
+    transform: translate(15px, 0);
+  }
+}
+
+@keyframes down {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(0, 10px);
   }
 }
 
