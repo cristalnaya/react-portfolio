@@ -1,5 +1,6 @@
 import React from 'react';
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
+import { Link } from 'react-router-dom'
 import { FaAngleDoubleRight } from 'react-icons/fa';
 
 class Header extends React.Component {
@@ -9,21 +10,21 @@ class Header extends React.Component {
     <Navbar inverse fixedTop fluid collapseOnSelect>
     <Navbar.Header>
         <Navbar.Brand>
-        <a href="#home">Radostina Dimitrova</a>
+        <Link to="/https://www.linkedin.com/in/radostina-dimitrova">Radostina Dimitrova</Link>
         </Navbar.Brand>
         <Navbar.Toggle />
     </Navbar.Header>
     <Navbar.Collapse>
         <Nav>
-            <NavItem eventKey={1} href="#home">
+            <NavItem eventKey={1} to="/">
                 Home
             </NavItem>
-            <NavItem eventKey={2} href="#about">
+            <NavItem eventKey={2} href="/about" to="/about">
                 About
             </NavItem>
         </Nav>
         <Nav className="work" pullRight>
-            <NavItem eventKey={1} href="#Latest Work">
+            <NavItem eventKey={1} href="/latest work" to="/latest work">
         Latest Work
             <div className="arrow">
                 <FaAngleDoubleRight />
