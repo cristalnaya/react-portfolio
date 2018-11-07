@@ -1,20 +1,23 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import { Jumbotron, Grid, Row, Col } from 'react-bootstrap';
 import { SocialIcon } from 'react-social-icons';
 import { FaAngleDown } from 'react-icons/fa';
 
 
-class HomePage extends React.Component {
+class Home extends React.Component {
     render() {
         return (
-          <Grid id="home">
+          <Grid>
             
             <Jumbotron>
             <h1>Hi, I am Tina. I am Front-end Web Developer</h1>
-              <p><a href="#about">Learn more, what i do</a></p>
+              <p>Learn more, what i do</p>
+              <Link to="/about">
               <FaAngleDown 
               href="#about"
               className="arrowDown" />
+              </Link>
           </Jumbotron>
             
           <Row className="show-grid">
@@ -35,4 +38,4 @@ class HomePage extends React.Component {
     }
 }
 
-export default HomePage 
+export default Home 
