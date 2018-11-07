@@ -7,16 +7,15 @@ import { FaAngleDown } from 'react-icons/fa';
 
 class Home extends React.Component {
     render() {
-        return (
-          <Grid>
-            
-            <Jumbotron>
+      return (
+        
+        <Grid>
+        <Jumbotron>
             <h1>Hi, I am Tina. I am Front-end Web Developer</h1>
               <p>Learn more, what i do</p>
               <Link to="/about">
               <FaAngleDown 
-              href="#about"
-              className="arrowDown" />
+              className="arrow-down" />
               </Link>
           </Jumbotron>
             
@@ -31,9 +30,7 @@ class Home extends React.Component {
                 <SocialIcon url="https://codepen.io/dashboard/" />
             </Col>
            </Row>
-  
-         </Grid>
-
+          </Grid>
         )
     }
 }

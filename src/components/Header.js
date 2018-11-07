@@ -10,13 +10,13 @@ class Header extends React.Component {
     <Navbar inverse fixedTop fluid collapseOnSelect>
     <Navbar.Header>
         <Navbar.Brand>
-        <Link to="/https://www.linkedin.com/in/radostina-dimitrova">Radostina Dimitrova</Link>
+        <Link to="/">Radostina Dimitrova</Link>
         </Navbar.Brand>
         <Navbar.Toggle />
     </Navbar.Header>
     <Navbar.Collapse>
         <Nav>
-            <NavItem eventKey={1} to="/">
+            <NavItem eventKey={1} componentClass={Link} href="/" to="/">
                 Home
             </NavItem>
             <NavItem eventKey={2} href="/about" to="/about">

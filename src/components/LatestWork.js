@@ -6,8 +6,13 @@ class LatestWork extends React.Component {
     render() {
         return(
             <div>
+            <Grid>
+              <Row>
+                <Col>
             Latest Work
-
+                </Col>
+              </Row>
+            </Grid>
             </div>
 
         )

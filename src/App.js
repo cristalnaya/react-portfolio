@@ -10,15 +10,15 @@ class App extends Component {
   render() {
     return (
       <Router>
-      <div className="container-fluid">
+      <div>
+      <div className="home-page">
       <Navbar />
         <Route exact path="/" component={Home} />
+        </div>
         <Route path="/about" component={About} />
         <Route path="/latest work" component={LatestWork} />
-        {/* <Header className="Header" />
-        <Home className="HomePage" />
-        <About /> */}
       </div>
+      
       </Router>
     );
   }
