@@ -8,7 +8,7 @@ class App extends Component {
   render() {
     return (
       <div className="container-fluid">
-        <Header className="Header"/>
+        <Header className="Header" />
         <HomePage className="HomePage" />
         
       </div>

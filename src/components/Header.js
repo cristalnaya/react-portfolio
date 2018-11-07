@@ -6,19 +6,19 @@ class Header extends React.Component {
   render() {
    return(
     <div className="navbar">
-    <Navbar inverse collapseOnSelect>
+    <Navbar inverse fixedTop fluid collapseOnSelect>
     <Navbar.Header>
         <Navbar.Brand>
-        <a href="#name">Radostina Dimitrova</a>
+        <a href="#home">Radostina Dimitrova</a>
         </Navbar.Brand>
         <Navbar.Toggle />
     </Navbar.Header>
     <Navbar.Collapse>
         <Nav>
-            <NavItem eventKey={1} href="#">
+            <NavItem eventKey={1} href="#home">
                 Home
             </NavItem>
-            <NavItem eventKey={2} href="#">
+            <NavItem eventKey={2} href="#about">
                 About
             </NavItem>
         </Nav>
