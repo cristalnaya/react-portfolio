@@ -59,16 +59,33 @@ div.home-row.row {
 
 .arrow-down {
   animation: down 1s ease-in-out infinite;
-  font-size: 3rem;
-  cursor: pointer;
-  color: #f4f815;
+  font-size: 3.5rem;
+  color: rgb(14, 137, 185);;
 }
 
-.about-page {
-  // background: url('img/aperture-vintage-346923-unsplash.jpg') no-repeat center center fixed;
-  // background-size: cover;
-  // height: 100vh;
-  background-color: beige;
+.skill-type {
+  font-size: 5rem;
+  margin-right: 20px; 
+}
+
+svg.skill-type:hover {
+  color: #1aebcf;
+}
+
+.skill-type:first-of-type {
+  color: #f16636;
+}
+
+.skill-type:nth-of-type(2) {
+  color: #359bd5;
+}
+
+.skill-type:nth-of-type(3) {
+  color: #f0da4f;
+}
+
+.skill-type:nth-of-type(4) {
+  color: rgb(97, 218, 251);
 }
 
 .about-left, .about-right {

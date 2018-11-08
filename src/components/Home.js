@@ -24,10 +24,11 @@ class Home extends React.Component {
                 <SocialIcon url="https://www.linkedin.com/in/radostina-dimitrova" />
             </Col>
             <Col xs={4}>
-                <SocialIcon className="icon" url="https://github.com/cristalnaya" />
+                <SocialIcon url="https://github.com/cristalnaya" />
             </Col>
             <Col xs={4}>
-                <SocialIcon url="https://codepen.io/dashboard/" />
+                <SocialIcon
+                url="https://codepen.io/dashboard/" />
             </Col>
            </Row>
           </Grid>
