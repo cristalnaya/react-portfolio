@@ -6,6 +6,10 @@ body {
   letter-spacing: 3px;
 }
 
+.skills, .info {
+  text-align: left;
+}
+
 .home-page {
   background: url('https://images.unsplash.com/photo-1535341000823-01aa350a4fbb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9e17c6ec715fcb50522c09214b467802&auto=format&fit=crop&w=700&q=80') no-repeat center center fixed;
   background-size: cover;
@@ -29,7 +33,7 @@ li {
   font-size: 1.5rem;
 }
 
-div.show-grid.row {
+div.home-row.row {
   width: fit-content;
   margin: 25vh auto;
 }
@@ -46,10 +50,6 @@ div.show-grid.row {
   color: #f4f815;
 }
 
-.navbar-toggle:hover {
-  color: #f4f815;
-}
-
  .arrow {
   width: 20%;
   margin-left: 1em;
@@ -62,6 +62,17 @@ div.show-grid.row {
   font-size: 3rem;
   cursor: pointer;
   color: #f4f815;
+}
+
+.about-page {
+  // background: url('img/aperture-vintage-346923-unsplash.jpg') no-repeat center center fixed;
+  // background-size: cover;
+  // height: 100vh;
+  background-color: beige;
+}
+
+.about-left, .about-right {
+  text-align: center;
 }
 
 @keyframes left {

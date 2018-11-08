@@ -6,7 +6,9 @@ import Home from './components/Home'
 import About from './components/About'
 import LatestWork from './components/LatestWork'
 
+
 class App extends Component {
+  
   render() {
     return (
       <Router>
@@ -15,7 +17,10 @@ class App extends Component {
       <Navbar />
         <Route exact path="/" component={Home} />
         </div>
+        <div>
+
         <Route path="/about" component={About} />
+        </div>
         <Route path="/latest work" component={LatestWork} />
       </div>
       

@@ -7,9 +7,10 @@ class LatestWork extends React.Component {
         return(
             <div>
             <Grid>
-              <Row>
-                <Col>
-            Latest Work
+              <Row className="show-grid">
+                <Col xs={12} sm={6}>
+                    <h2>Latest Work</h2>
+            
                 </Col>
               </Row>
             </Grid>

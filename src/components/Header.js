@@ -19,12 +19,12 @@ class Header extends React.Component {
             <NavItem eventKey={1} componentClass={Link} href="/" to="/">
                 Home
             </NavItem>
-            <NavItem eventKey={2} href="/about" to="/about">
+            <NavItem eventKey={2} componentClass={Link} href="/about" to="/about">
                 About
             </NavItem>
         </Nav>
         <Nav className="work" pullRight>
-            <NavItem eventKey={1} href="/latest work" to="/latest work">
+            <NavItem eventKey={1} componentClass={Link} href="/latest work" to="/latest work">
         Latest Work
             <div className="arrow">
                 <FaAngleDoubleRight />
