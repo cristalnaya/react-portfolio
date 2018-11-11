@@ -11,9 +11,15 @@
     "react-bootstrap": "^0.32.4",
     "react-dom": "^16.6.1",
     "react-icons": "^3.2.2",
+    "react-ionicons": "^2.1.6",
+    "react-mdl": "^1.11.0",
+    "react-page-scroller": "^1.4.2",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "2.0.5"
+    "react-scripts": "2.0.5",
+    "react-scrollchor": "^6.0.0",
+    "react-stack-grid": "^0.7.1",
+    "scroll-to-element": "^2.0.2"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,25 +1,30 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
 import { Jumbotron, Grid, Row, Col } from 'react-bootstrap';
 import { SocialIcon } from 'react-social-icons';
 import { FaAngleDown } from 'react-icons/fa';
-
+import scrollToElement from 'scroll-to-element'
 
 class Home extends React.Component {
+
+    handleArrowClick(el) {
+        scrollToElement(el);
+    }
+
     render() {
       return (
-          <div>
+        <div id="home">
         <Grid>
         <Jumbotron>
             <h1>Hi, I am Tina. I am Front-end Web Developer</h1>
-              <p>Learn more, what i do</p>
-              <Link to="/about">
-              <FaAngleDown 
-              className="arrow-down" />
-              </Link>
+              <span className="arrow"
+                    onClick={() =>
+                    this.handleArrowClick('#about')}>
+                    <FaAngleDown 
+                    className="arrow-down" />
+                </span>   
           </Jumbotron>
             
-          <Row className="show-grid home-row">
+          <Row className="show-grid social-icons">
             <Col xs={4}>
                 <SocialIcon url="https://www.linkedin.com/in/radostina-dimitrova" />
             </Col>
