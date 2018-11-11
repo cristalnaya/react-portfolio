@@ -1,7 +1,7 @@
 $text-decoration: none;
 $color: #fff;
 $list-style-type: none;
-$height: 100vh;
+$main-height: 100vh;
 $font-family: 'Permanent Marker', cursive;
 
 body {
@@ -40,10 +40,10 @@ h2 {
   margin-top: 15vh;
 }
 
-// .btn-primary {
-//   background-color: #000;
-//   border-color: #000;
-// }
+.btn-primary {
+  background-color: #000;
+  border-color: #000;
+}
 
 li {
   font-size: 1.5rem; 
@@ -85,22 +85,20 @@ div.social-icons.row {
 }
 
 #about {
-  height: $height;
+  height: $main-height;
   background: #bdc3c7;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   clip-path: polygon(0 0, 100% 0, 100% 74%, 0 100%);
   
-  
   .hr-line {
     height: 5%;
     background: #000;
   }
-
- 
+  
 }
-
-.skills-container {
+ 
+  .skills-container {
   
   .skill-header {
     font-family: $font-family;
@@ -127,6 +125,7 @@ div.social-icons.row {
   }
 }
 
+
 .about-container {
   margin-top: 80px;
   
@@ -141,7 +140,7 @@ div.social-icons.row {
 }
 
 #latest-work {
-  height: $height;
+  height: $main-height;
   background: #000;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #0f9b0f, #000);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #0f9b0f, #000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */

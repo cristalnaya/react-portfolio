@@ -1,6 +1,6 @@
 import React from 'react';
 import { Grid, Row, Col } from 'react-bootstrap'
-import '../scss/About.scss'
+// import '../scss/About.scss'
 
 
 class About extends React.Component {
@@ -25,9 +25,9 @@ class About extends React.Component {
                     <li className="skill-type">Jasmine</li>
                   </ul> 
                   </Col>
-                  <Col className="about-container" xs={8} md={4} lg={4}>
+                  <Col className="about-container" xs={9} md={4} lg={4}>
                     <h2 className="about-header">What About Me</h2>
-                        <p>Front-end web developer, lifelong learner, self-taught, passionate about achieving excellence in my coding.</p>
+                        <p>I am a Front-end web developer, lifelong learner, self-taught, passionate about achieving excellence in my coding.</p>
                   </Col>
               </Row>
                 </Grid>

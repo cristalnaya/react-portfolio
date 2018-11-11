@@ -1,46 +1,46 @@
 // About Component styles
-#about {
-    height: $height;
-    background: #bdc3c7;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    clip-path: polygon(0 0, 100% 0, 100% 74%, 0 100%);
+// #about {
+//     height: $height;
+//     background: #bdc3c7;  /* fallback for old browsers */
+//     background: -webkit-linear-gradient(to left, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+//     background: linear-gradient(to left, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+//     clip-path: polygon(0 0, 100% 0, 100% 74%, 0 100%);
     
     
-    .hr-line {
-      height: 5%;
-      background: #000;
-    }
+//     .hr-line {
+//       height: 5%;
+//       background: #000;
+//     }
   
    
-  }
+//   }
   
-  .skills {
-    flex-direction: column;
-    width: 45vw;
-    margin: 0;
-    padding: 20px;
+//   .skills {
+//     flex-direction: column;
+//     width: 45vw;
+//     margin: 0;
+//     padding: 20px;
     // display: flex;
     // flex-wrap: wrap;
     // align-items: flex-start;
   
-    .skill-type {
-      width: 130px;
-      margin: 0 20px 20px 0;
-      list-style-type: $list-style-type;
-      float: left;
-      padding: 20px;
-      background-color: rgb(24, 23, 23);
-      color: #fff;
-      border-radius: 45%;
-      text-align: center;
-      font-weight: 500; 
-      opacity: 0.5;
-      border: 5px solid rgb(42, 4, 35);
-    }
+  //   .skill-type {
+  //     width: 130px;
+  //     margin: 0 20px 20px 0;
+  //     list-style-type: $list-style-type;
+  //     float: left;
+  //     padding: 20px;
+  //     background-color: rgb(24, 23, 23);
+  //     color: #fff;
+  //     border-radius: 45%;
+  //     text-align: center;
+  //     font-weight: 500; 
+  //     opacity: 0.5;
+  //     border: 5px solid rgb(42, 4, 35);
+  //   }
   
-    .skill-type:hover {
-      background-color: rgb(80, 7, 68);
-      transition: 1s;
-    }
-  }
+  //   .skill-type:hover {
+  //     background-color: rgb(80, 7, 68);
+  //     transition: 1s;
+  //   }
+  // }

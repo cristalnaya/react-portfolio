@@ -10,6 +10,7 @@
     "react": "^16.6.1",
     "react-bootstrap": "^0.32.4",
     "react-dom": "^16.6.1",
+    "react-grid-gallery": "^0.5.3",
     "react-icons": "^3.2.2",
     "react-ionicons": "^2.1.6",
     "react-mdl": "^1.11.0",
