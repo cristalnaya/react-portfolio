@@ -5,7 +5,8 @@ const footerStyle = {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    background: '#6fc2d0'
+    background: '#2C5364',
+    bottom: 0
 }
 export default class Footer extends Component {
     render() {

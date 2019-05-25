@@ -1,13 +1,9 @@
 import React from 'react'
 import SkillsList from './SkillsList';
 
-const skillsStyle ={
-  display: 'flex',
-  height: '60%',
-  flexWrap: 'wrap',
-  flexDirection: 'row',
-  alignItems: 'center',
-  justifyContent: 'center',
+
+const skillHeaderStyle = {
+    padding: '1em 0'
 }
 
 const Skills = ({ icons }) => {
@@ -19,8 +15,8 @@ const Skills = ({ icons }) => {
   });
   return(
       <div id="skills">
-      <h2 className="skill-header">Skills</h2>
-        <div className='' style={skillsStyle}>
+      <h2 className="skill-header" style={skillHeaderStyle}>Some of my Skills</h2>
+        <div className='skills-wrapper'>
           {iconsArray}
         </div>
       </div>

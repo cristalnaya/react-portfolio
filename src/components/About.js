@@ -3,6 +3,14 @@ import { FaAngleDown } from 'react-icons/fa';
 import scrollToElement from 'scroll-to-element';
 
 
+const aboutIdStyle = {
+  display: 'flex',
+  flexDirection: 'column',
+  height: '50vh',
+  background: 'linear-gradient(to right, #2C5364, #203A43, #0F2027)' /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
 class About extends Component {
 
   handleArrowClick(el) {
@@ -11,12 +19,10 @@ class About extends Component {
 
   render() {
     return(
-        <div id="about">
-          
-          <div className="about-container" style={{display: 'flex',
-          flexDirection: 'column', justifyContent: 'center', alignItems: 'center', width: '70%', margin: 'auto', padding: '0 20px 20px',}}>
-                <h2 className="about-header">What About Me</h2>
-                  <p>Loves JavaScript and learning new stuff. Travel enthusiast, healthy food addicted. Currently a freelancer. <br/> (｡◕‿◕｡)</p>
+        <div id="about" style={aboutIdStyle}>
+          <h2 className="about-header">What About</h2>
+          <div className="about-container">
+            <p>Loves JavaScript and learning new stuff. Travel enthusiast, healthy food addicted. Currently a freelancer. <br/> (｡◕‿◕｡)</p>
            </div>
             <span className="arrow"
                 onClick={() =>
