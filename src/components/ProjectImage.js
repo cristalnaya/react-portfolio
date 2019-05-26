@@ -1,26 +1,33 @@
 import React from 'react';
+import { MDBMask, MDBView, MDBCol } from "mdbreact";
 
-const imgStyle = {
-    transition: 'all 1.5s',
-    padding: '0 20px 20px',
-}
 
 const ProjectImage = ({ image }) => {
-   
-    // const images = require.context('./img', true);
     return(
-        <div>
-            <a href={image.projectUrl} target="_blank" rel="noopener noreferrer">
-                <img className="project-img"
-                    style={imgStyle} 
-                    src={image.src}
-                    alt={image.alt}
-                    title={image.title}
-                    width='350px'
-                    height='350px'
-                />
-            </a>
-        </div>
+        <MDBCol md="4" style={{paddingBottom: '25px'}}>
+        <MDBView hover zoom>
+            <img className="img-fluid"
+                src={image.src}
+                alt={image.alt}
+                title={image.title}
+                // style={{ width: '350px', height: '350px'}}
+            />
+        <a href={image.projectUrl} target="_blank" rel="noopener noreferrer">
+        <MDBMask className="flex-center" overlay="black-slight">
+            <h3 
+            className="white-text text-capitalize"
+            style={{
+                backgroundColor: 'rgba(0,0,0,0.7)',
+                padding: '5px',
+                textAlign: 'center'
+                }}
+                >
+                {image.title}
+            </h3>
+            </MDBMask>
+        </a>
+        </MDBView>
+        </MDBCol>
         )
     }
 

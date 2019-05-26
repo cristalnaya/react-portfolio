@@ -14,8 +14,8 @@ const Skills = ({ icons }) => {
       />
   });
   return(
-      <div id="skills">
-      <h2 className="skill-header" style={skillHeaderStyle}>Some of my Skills</h2>
+      <div id="skills" className="text-white text-center flex-center h-auto pt-5 pb-5">
+      <h2 className="skill-header h1-responsive display-4" style={skillHeaderStyle}>Some of my Skills</h2>
         <div className='skills-wrapper'>
           {iconsArray}
         </div>

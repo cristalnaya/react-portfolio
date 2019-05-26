@@ -1,14 +1,7 @@
 import React from 'react';
 import ProjectImage from './ProjectImage';
+import { MDBContainer, MDBRow } from "mdbreact";
 
-const gridStyle = {
-    display: 'flex',
-    height: '100%',
-    flexWrap: 'wrap',
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'center',
-}
 
 const LatestWork = ({ images }) => {
     const imageArray = images.map((image, i) => {
@@ -18,14 +11,14 @@ const LatestWork = ({ images }) => {
         />
     });
     return(
-        <div id="latest-work">
-        <h2 className="work-header">Latest Work</h2>
-        <div className='grid-container'
-            style={gridStyle}>
-           {imageArray}
+        <div id="latest-work" className="text-white">
+           <MDBContainer fluid className="projects-container w-responsive text-center mx-auto p-3" style={{color: '#fff'}}>
+              <h2 className="work-header h1-responsive display-4 text-center">Latest Work</h2>
+                <MDBRow>
+                   {imageArray}
+               </MDBRow>
+            </MDBContainer>
         </div>
-        </div>
-
         )
     }
 

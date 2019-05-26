@@ -25,7 +25,7 @@ export const images =
         id: 3,
         src: '/img/myreads.png',
         alt: 'MyReads',
-        title: 'MyReads',
+        title: 'My Reads',
         projectUrl: 'https://github.com/cristalnaya/reactnd-project-myreads'
     },
     {

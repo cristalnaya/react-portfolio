@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
 import { FaAngleDown } from 'react-icons/fa';
 import scrollToElement from 'scroll-to-element';
-
+import { MDBContainer } from 'mdbreact';
 
 const aboutIdStyle = {
-  display: 'flex',
-  flexDirection: 'column',
-  height: '50vh',
+  color: '#fff',
+  fontSize: '1.5rem',
   background: 'linear-gradient(to right, #2C5364, #203A43, #0F2027)' /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
@@ -19,17 +18,20 @@ class About extends Component {
 
   render() {
     return(
-        <div id="about" style={aboutIdStyle}>
-          <h2 className="about-header">What About</h2>
-          <div className="about-container">
-            <p>Loves JavaScript and learning new stuff. Travel enthusiast, healthy food addicted. Currently a freelancer. <br/> (｡◕‿◕｡)</p>
-           </div>
+        <div className="text-justify text-center flex-center h-auto pt-5 pb-5" id="about" style={aboutIdStyle}>
+          <MDBContainer className="w-responsive">
+          <h2 className="h3-responsive about-header display-4">What About</h2>
+            <div className="about-container">
+              <p className="lead w-75 mx-auto text-center" style={{ fontSize: '2rem', lineHeight: '2' }}>Loves JavaScript and learning new technologies. <br/> Travel enthusiast, healthy food addicted. Games and music maniac. <br /> Currently a freelancer. <br/> (｡◕‿◕｡)</p>
+            </div>
             <span className="arrow"
                 onClick={() =>
                 this.handleArrowClick('#latest-work')}>
                 <FaAngleDown 
-                className="arrow-down" />
+                className="arrow" />
             </span>   
+
+          </MDBContainer>
           </div> 
 
         )
