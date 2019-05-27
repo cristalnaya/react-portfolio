@@ -18,6 +18,10 @@ body {
   font-size: 2rem;
   color: #fff;
 
+  .navbar {
+    font-family: $font-family;
+  }
+  
   div.social-icons.row {
     width: fit-content;
     margin: auto;

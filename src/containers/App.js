@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import Home from './components/Home'
-import About from './components/About'
-import LatestWork from './components/LatestWork';
-import Sidebar from "./components/Sidebar";
-import Footer from './components/Footer';
+import Home from '../components/Home'
+import About from '../components/About'
+import LatestWork from '../components/LatestWork';
+import Sidebar from "../components/Sidebar";
+import Footer from '../components/Footer';
 import OverwatchSideNav from 'overwatch-side-nav/lib';
-import Skills from './components/Skills';
-import { images, icons } from './components/data';
+import Skills from '../components/Skills';
+import { images, icons } from '../components/data';
 import './App.scss';
 
 
@@ -35,7 +35,6 @@ class App extends Component {
     this.setState(() => ({ colors: randomColor} ))
     }, 3000);
 }
-
 
 componentWillUnmount() {
   clearInterval(this.interval);

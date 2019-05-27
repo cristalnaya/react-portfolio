@@ -13,7 +13,7 @@ const ProjectImage = ({ image }) => {
                 // style={{ width: '350px', height: '350px'}}
             />
         <a href={image.projectUrl} target="_blank" rel="noopener noreferrer">
-        <MDBMask className="flex-center" overlay="black-slight">
+        <MDBMask className="flex-center">
             <h3 
             className="white-text text-capitalize"
             style={{
