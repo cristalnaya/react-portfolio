@@ -25,7 +25,7 @@ class Navbar extends React.Component {
     return (
       <div>
        <Router>
-        <MDBNavbar className="font-weight-bolder" color="elegant-color" fixed="top" dark expand="md" scrolling transparent>
+        <MDBNavbar style={{fontSize: '1.5rem'}} className="font-weight-bolder" color="elegant-color" fixed="top" dark expand="md" scrolling transparent>
             <MDBNavbarBrand className="flex-center hoverable">
             <a href="https://github.com/cristalnaya/react-portfolio" className="text-white h4-responsive waves-effect waves-light repo-link" target="_blank" rel="noopener noreferrer"><MDBIcon fab icon="github-alt" size="lg" />GitHub Repo</a>
             </MDBNavbarBrand>
