@@ -72,7 +72,6 @@ componentWillUnmount() {
       style={{ 
         backgroundColor: this.state.colors,
         height: '100vh',
-        // width: '100%',
       }}>
       <Sidebar
         distance={20}>

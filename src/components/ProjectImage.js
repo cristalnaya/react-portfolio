@@ -14,7 +14,7 @@ const ProjectImage = ({ image }) => {
             />
         <a href={image.projectUrl} target="_blank" rel="noopener noreferrer">
         <MDBMask className="flex-center">
-            <h3 
+            <p 
             className="white-text text-capitalize"
             style={{
                 backgroundColor: 'rgba(0,0,0,0.7)',
@@ -23,7 +23,7 @@ const ProjectImage = ({ image }) => {
                 }}
                 >
                 {image.title}
-            </h3>
+            </p>
             </MDBMask>
         </a>
         </MDBView>

@@ -16,7 +16,7 @@ class JumbotronPage extends Component {
         <MDBCol className="text-center pl-0 pr-0">
             <MDBJumbotron className="" style={{ backgroundColor: 'rgba(0,0,0,0.4)' }}>
             <MDBAnimation type="tada">
-            <h2 className="h1-responsive">Radostina Dimitrova</h2>
+            <h1 className="h1-responsive display">Radostina Dimitrova</h1>
             </MDBAnimation>
             <hr className="my-2" color="white" />
             <h4 className="role pb-4 h5-responsive">Front-End Web Developer</h4>
