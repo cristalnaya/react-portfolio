@@ -1,5 +1,6 @@
 import React from 'react'
 import SkillsList from './SkillsList';
+import { MDBContainer } from 'mdbreact';
 
 
 const skillHeaderStyle = {
@@ -14,12 +15,12 @@ const Skills = ({ icons }) => {
       />
   });
   return(
-      <div id="skills" className="text-white text-center flex-center h-auto pt-5 pb-5">
-      <h2 className="skill-header h3-responsive display-4 w-responsive" style={skillHeaderStyle}>Some of my Skills</h2>
-        <div className='skills-wrapper'>
-          {iconsArray}
-        </div>
-      </div>
+      <MDBContainer fluid id="skills" className="text-white text-center flex-center h-auto pt-5 pb-5">
+        <h2 className="skill-header h3-responsive display-4 " style={skillHeaderStyle}>Some of my Skills</h2>
+          <div className='skills-wrapper'>
+            {iconsArray}
+          </div>
+      </MDBContainer>
      )
   }
 
