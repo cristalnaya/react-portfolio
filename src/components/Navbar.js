@@ -27,7 +27,7 @@ class Navbar extends React.Component {
        <Router>
         <MDBNavbar className="font-weight-bolder h3-responsive" color="elegant-color" fixed="top" dark expand="md" scrolling transparent>
             <MDBNavbarBrand className="flex-center hoverable">
-            <a href="https://github.com/cristalnaya/react-portfolio" className="text-white h4-responsive waves-effect waves-light" target="_blank" rel="noopener noreferrer"><MDBIcon fab icon="github-alt" size="lg" />GitHub Repo</a>
+            <a href="https://github.com/cristalnaya/react-portfolio" className="text-white h4-responsive waves-effect waves-light repo-link" target="_blank" rel="noopener noreferrer"><MDBIcon fab icon="github-alt" size="lg" />GitHub Repo</a>
             </MDBNavbarBrand>
             {!this.state.isWideEnough && <MDBNavbarToggler onClick={this.onClick} />}
             <MDBCollapse isOpen={this.state.collapse} navbar>

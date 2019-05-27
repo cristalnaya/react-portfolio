@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import { FaAngleDown } from 'react-icons/fa';
 import scrollToElement from 'scroll-to-element';
-import { MDBContainer } from 'mdbreact';
+import { MDBContainer, MDBIcon } from 'mdbreact';
 
 const aboutIdStyle = {
   color: '#fff',
@@ -27,8 +26,7 @@ class About extends Component {
             <span className="arrow"
                 onClick={() =>
                 this.handleArrowClick('#latest-work')}>
-                <FaAngleDown 
-                className="arrow" />
+                <MDBIcon icon="angle-down" className="arrow" />
             </span>   
 
           </MDBContainer>

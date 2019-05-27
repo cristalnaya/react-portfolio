@@ -1,7 +1,6 @@
 import React, { Component } from "react";
-import { MDBJumbotron, MDBRow, MDBCol, MDBAnimation } from "mdbreact";
+import { MDBJumbotron, MDBRow, MDBCol, MDBAnimation, MDBIcon } from "mdbreact";
 import { SocialIcon } from 'react-social-icons';
-import { FaAngleDown } from 'react-icons/fa';
 import scrollToElement from 'scroll-to-element'
 
 
@@ -37,8 +36,7 @@ class JumbotronPage extends Component {
                 <span
                     onClick={() =>
                     this.handleArrowClick('#about')}>
-                    <FaAngleDown 
-                    className="arrow" />
+                    <MDBIcon icon="angle-down" className="arrow" />
                 </span>   
         </MDBCol>
         </MDBRow>
