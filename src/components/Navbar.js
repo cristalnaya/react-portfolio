@@ -25,29 +25,29 @@ class Navbar extends React.Component {
     return (
       <div>
        <Router>
-        <MDBNavbar style={{fontSize: '1.5rem'}} className="font-weight-bolder" color="elegant-color" fixed="top" dark expand="md" scrolling transparent>
-            <MDBNavbarBrand className="flex-center hoverable">
-            <a href="https://github.com/cristalnaya/react-portfolio" className="text-white h4-responsive waves-effect waves-light repo-link" target="_blank" rel="noopener noreferrer"><MDBIcon fab icon="github-alt" size="lg" />GitHub Repo</a>
+        <MDBNavbar style={{fontSize: '1rem'}} className="font-weight-bolder h4-responsive" color="elegant-color" fixed="top" dark expand="md" scrolling transparent>
+            <MDBNavbarBrand className="flex-center hoverable h6">
+            <a href="https://github.com/cristalnaya/react-portfolio" className="text-white waves-effect waves-light repo-link" target="_blank" rel="noopener noreferrer"><MDBIcon fab icon="github-alt" size="lg" />GitHub Repo</a>
             </MDBNavbarBrand>
             {!this.state.isWideEnough && <MDBNavbarToggler onClick={this.onClick} />}
             <MDBCollapse isOpen={this.state.collapse} navbar>
             <MDBNavbarNav right>
-                <MDBNavItem className="p-2 hoverable" active>
+                <MDBNavItem className="p-2 hoverable waves-effect waves-light" active>
                 <Scrollchor to="#home" className="nav-link">
                 Home
                 </Scrollchor>
                 </MDBNavItem>
-                <MDBNavItem className="p-2 hoverable">
+                <MDBNavItem className="p-2 hoverable waves-effect waves-light">
                 <Scrollchor to="#about" className="nav-link">
                 About
                 </Scrollchor>
                 </MDBNavItem>
-                <MDBNavItem className="p-2 hoverable">
+                <MDBNavItem className="p-2 hoverable waves-effect waves-light">
                 <Scrollchor to="#skills" className="nav-link">
                 Skills
                 </Scrollchor>
                 </MDBNavItem>
-                <MDBNavItem className="p-2 hoverable">
+                <MDBNavItem className="p-2 hoverable waves-effect waves-light">
                 <Scrollchor to="#latest-work" className="nav-link">
                 Latest Work
                 </Scrollchor>

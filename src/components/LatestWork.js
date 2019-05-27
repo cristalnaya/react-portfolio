@@ -13,7 +13,7 @@ const LatestWork = ({ images }) => {
     return(
         <div id="latest-work" className="text-white">
            <MDBContainer fluid className="projects-container w-responsive text-center mx-auto p-3" style={{color: '#fff'}}>
-              <h2 className="work-header h1-responsive display-4 text-center">Latest Work</h2>
+              <h2 className="work-header h3-responsive display-4 text-center">Latest Work</h2>
                 <MDBRow>
                    {imageArray}
                </MDBRow>
