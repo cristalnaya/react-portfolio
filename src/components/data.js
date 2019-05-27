@@ -2,7 +2,7 @@ export const images =
 [
     {
         id: 1,
-        src: '/img/arcade-game.png',
+        src: '/react-portfolio/img/arcade-game.png',
         alt: 'arcade game',
         title: 'arcade game',
         projectUrl: 'https://github.com/cristalnaya/frontend-nanodegree-arcade-game'
