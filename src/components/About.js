@@ -19,9 +19,9 @@ class About extends Component {
     return(
         <div className="text-justify text-center flex-center h-auto pt-5 pb-5" id="about" style={aboutIdStyle}>
           <MDBContainer className="w-responsive">
-          <h2 className="h3-responsive about-header display-4">About</h2>
+          <h2 className="h6-responsive about-header">About</h2>
             <div className="about-container">
-              <p className="lead w-75 mx-auto text-center" style={{ fontSize: '2rem', lineHeight: '2' }}>Loves JavaScript and learning new technologies. <br/> Travel enthusiast, healthy food addicted. Games and music maniac. <br /> Currently a freelancer. <br/> (｡◕‿◕｡)</p>
+              <p className="lead w-75 mx-auto text-center" style={{ lineHeight: '2' }}>Loves JavaScript and learning new technologies. <br/> Travel enthusiast, healthy food addicted. Games and music maniac. <br /> Currently a freelancer. <br/> (｡◕‿◕｡)</p>
             </div>
             <span className="arrow"
                 onClick={() =>

@@ -68,8 +68,11 @@ componentWillUnmount() {
     
     
     return (
-      <div className="app"
-      style={{ backgroundColor: this.state.colors, height: '100vh'
+      <div className="app w-responsive"
+      style={{ 
+        backgroundColor: this.state.colors,
+        height: '100vh',
+        width: '100vw'
       }}>
       <Sidebar
         distance={20}>

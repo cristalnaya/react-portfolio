@@ -13,10 +13,10 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Roboto Mono', monospace;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
   text-align: center;
-  font-size: 2rem;
   color: #fff;
+  width: 100vw;
 
   .navbar {
     font-family: $font-family;
@@ -38,7 +38,7 @@ body {
 
   .arrow {
     animation: down 1s ease-in-out infinite;
-    font-size: 3.5rem;
+    font-size: 2rem;
     color: rgb(14, 137, 185);
     margin: auto;
   }

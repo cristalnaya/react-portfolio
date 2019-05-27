@@ -7,7 +7,7 @@ class Home extends Component {
 
     render() {
       return (
-        <MDBRow id="home" className="h-100 w-responsive flex-center mx-auto">
+        <MDBRow id="home" className="h-100 w-responsive flex-center mx-auto text-white">
             <Navbar />
             <JumbotronPage />
         </MDBRow>
