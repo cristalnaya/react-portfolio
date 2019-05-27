@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { MDBJumbotron, MDBRow, MDBCol, MDBAnimation, MDBIcon } from "mdbreact";
+import { MDBJumbotron, MDBRow, MDBCol, MDBAnimation, MDBIcon, MDBContainer } from "mdbreact";
 import { SocialIcon } from 'react-social-icons';
 import scrollToElement from 'scroll-to-element'
 
@@ -11,15 +11,15 @@ class JumbotronPage extends Component {
     }  
     render() {
       return (
-        <MDBRow className="text-center flex-center w-responsive mx-auto text-white" style={{ fontFamily: "'Roboto Mono', monospace" }}>
-        <MDBRow>
-        <MDBCol className="mx-auto text-center">
-            <MDBJumbotron style={{ backgroundColor: 'rgba(0,0,0,0.4)' }}>
+        <MDBContainer fluid className="text-center flex-center w-responsive mx-auto text-white" style={{ fontFamily: "'Roboto Mono', monospace" }}>
+        <MDBRow className="mr-0 ml-0">
+        <MDBCol className="text-center pl-0 pr-0">
+            <MDBJumbotron className="" style={{ backgroundColor: 'rgba(0,0,0,0.4)' }}>
             <MDBAnimation type="tada">
-            <h2 className="h1-responsive">Radostina Dimitrova✩</h2>
+            <h2 className="h1-responsive">Radostina Dimitrova</h2>
             </MDBAnimation>
-            <hr className="my-2" />
-            <p className="role pb-4">Front-End Web Developer</p>
+            <hr className="my-2" color="white" />
+            <h4 className="role pb-4 h5-responsive">Front-End Web Developer</h4>
             <MDBRow className="social-icons">
                 <MDBCol>
                 <SocialIcon className='social-icons' url="https://www.linkedin.com/in/radostina-dimitrova" target="_blank" rel="noopener noreferrer" />
@@ -40,7 +40,7 @@ class JumbotronPage extends Component {
                 </span>   
         </MDBCol>
         </MDBRow>
-    </MDBRow>
+    </MDBContainer>
   
     )
   }
