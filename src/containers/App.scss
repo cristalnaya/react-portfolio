@@ -21,7 +21,7 @@ body {
   .navbar {
     font-family: $font-family;
   }
-  
+
   a.repo-link {
     text-decoration: none;
   }
@@ -49,13 +49,13 @@ body {
 
   .about-header,
   .skill-header,
-  .work-header {
+  .work-header,
+  h1 {
     margin: $margin-header;
     font-family: $font-family;
-    padding: 40px 0;
   }
 
-  #skills {
+  #about-component {
     background: #bdc3c7;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
@@ -63,19 +63,9 @@ body {
     background: linear-gradient(to right, #2c3e50, #767b7e);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     ;
-    height: 70vh;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
 
     .skills-wrapper {
-      width: 65vw;
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      margin: 3rem auto;
+      width: fit-content;
     }
 
     .skill-type {
@@ -111,6 +101,7 @@ body {
     .work-header {
       font-family: $font-family;
       margin: $margin-header;
+      padding: 20px 0;
     }
   }
 }
@@ -142,17 +133,8 @@ body {
 
 // Media Queries
 @media screen and (max-width: 785px) {
-
-  #skills {
-    height: 100%;
-
-    .skills-wrapper {
-      width: 90vw;
-    }
-
-    .skill-type {
-      max-width: 80px;
-    }
+  .skill-type {
+    max-width: 70px;
   }
 
   img.img-fluid {
@@ -161,22 +143,20 @@ body {
 }
 
 @media screen and (max-width: 575px) {
-
-  .jumbotron {
-    max-width: 90%;
-    margin: auto;
+  div.about-col {
+    height: 60vh;
   }
 
-  #about {
-    max-height: 100vh;
+  div.skills-col {
+    height: 90vh;
   }
 
-  #skills {
-    height: 100vh;
+  div.arrow-row {
+    height: 20vh;
+  }
 
-    .skill-type {
-      width: 65px;
-    }
+  .skill-type {
+    width: 70px;
   }
 
   img.img-fluid {

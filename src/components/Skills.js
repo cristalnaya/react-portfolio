@@ -15,9 +15,9 @@ const Skills = ({ icons }) => {
       />
   });
   return(
-      <MDBContainer fluid id="skills" className="text-white text-center flex-center h-auto pt-5 pb-5">
+      <MDBContainer fluid id="skills" className="text-center flex-center flex-column text-white mx-auto pb-sm-1 pt-sm-1">
         <h2 className="skill-header h3-responsive display-4 " style={skillHeaderStyle}>Some of my Skills</h2>
-          <div className='skills-wrapper'>
+          <div className='skills-wrapper flex-row flex-center flex-wrap w-responsive'>
             {iconsArray}
           </div>
       </MDBContainer>

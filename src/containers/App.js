@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
 import Home from '../components/Home'
-import About from '../components/About'
 import LatestWork from '../components/LatestWork';
 import Sidebar from "../components/Sidebar";
 import Footer from '../components/Footer';
 import OverwatchSideNav from 'overwatch-side-nav/lib';
-import Skills from '../components/Skills';
-import { images, icons } from '../components/data';
+import AboutComponent from '../components/AboutComponent';
+import { images } from '../components/data';
 import './App.scss';
 
 
@@ -78,8 +77,7 @@ componentWillUnmount() {
           <OverwatchSideNav items={items} />
       </Sidebar>
       <Home />
-      <About />
-      <Skills icons={icons} />
+      <AboutComponent />
       <LatestWork images={images}/>
       <Footer />
     </div>
