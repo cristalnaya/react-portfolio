@@ -38,13 +38,8 @@ class Navbar extends React.Component {
                 </Scrollchor>
                 </MDBNavItem>
                 <MDBNavItem className="p-2 hoverable waves-effect waves-light">
-                <Scrollchor to="#about" className="nav-link">
+                <Scrollchor to="#about-component" className="nav-link">
                 About
-                </Scrollchor>
-                </MDBNavItem>
-                <MDBNavItem className="p-2 hoverable waves-effect waves-light">
-                <Scrollchor to="#skills" className="nav-link">
-                Skills
                 </Scrollchor>
                 </MDBNavItem>
                 <MDBNavItem className="p-2 hoverable waves-effect waves-light">

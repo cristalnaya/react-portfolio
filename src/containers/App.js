@@ -54,11 +54,6 @@ componentWillUnmount() {
         icon: '<img src="https://i.imgur.com/SFAKn3i.png" alt="User icon" style="margin-top: 2px;" />',
       },
       {
-        label: 'Skills',
-        id: 'skills',
-        icon: '<img src="https://i.imgur.com/gsp0Vs2.png" alt="Code icon" />',
-      },
-      {
         label: 'Home',
         id: 'home',
         icon: '<img src="https://i.imgur.com/JN2i07H.png" alt="home" style="margin-top: 2px;" />',
