@@ -46,17 +46,17 @@ componentWillUnmount() {
       {
         label: 'Latest Work',
         id: 'latest-work',
-        icon: '<img src="https://i.imgur.com/U4OhEvQ.png" alt="Toolkit" style="margin-top: 2px;" />',
+        icon: '<img src="https://i.imgur.com/U4OhEvQ.png" alt="Projects" style="margin-top: 2px;" />',
       },
       {
         label: 'About me',
         id: 'about',
-        icon: '<img src="https://i.imgur.com/SFAKn3i.png" alt="User icon" style="margin-top: 2px;" />',
+        icon: '<img src="https://i.imgur.com/SFAKn3i.png" alt="User" style="margin-top: 2px;" />',
       },
       {
         label: 'Home',
         id: 'home',
-        icon: '<img src="https://i.imgur.com/JN2i07H.png" alt="home" style="margin-top: 2px;" />',
+        icon: '<img src="https://i.imgur.com/JN2i07H.png" alt="Home" style="margin-top: 2px;" />',
       }
     ]
     

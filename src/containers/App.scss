@@ -71,15 +71,16 @@ body {
     .skill-type {
       padding: 10px;
       background-color: rgb(255, 255, 255);
-      border-radius: 45%;
+      border-radius: 50%;
       text-align: center;
       font-weight: 500;
       opacity: 0.8;
-      border: 5px solid #ffbf00;
+      border: 5px solid #12a9b9;
     }
 
     .skill-type:hover {
       background-color: #002f35;
+      border: 5px solid #00ffb3;
       transform: scale(1.1);
       transition: 0.9s;
       opacity: 0.5;
