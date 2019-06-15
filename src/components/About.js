@@ -14,7 +14,7 @@ class About extends Component {
         <MDBContainer fluid className="text-center flex-center flex-column mx-auto pb-sm-1 pt-sm-1" id="about" style={aboutIdStyle}>
           <MDBRow className="mr-0 ml-0 w-responsive">
             <MDBCol className="text-center pl-0 pr-0">
-              <h3 className="h3-responsive about-header text-center pb-sm-3 pt-sm-3">About</h3>
+              <h3 className="about-header text-center pb-sm-3 pt-sm-3">About</h3>
                 <div className="about-container">
                   <p className="mx-auto text-center text-sm-center about-text pb-sm-3 pt-sm-3">Loves JavaScript and learning new technologies. <br/> Travel enthusiast, healthy food addicted. Games and music maniac. <br/> (｡◕‿◕｡)</p>
                 </div>

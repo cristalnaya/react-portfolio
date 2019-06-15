@@ -116,7 +116,6 @@ h1 {
   .work-header {
     font-family: $font-family;
     margin: $margin-header;
-    padding: 20px 0;
   }
 }
 
@@ -158,6 +157,12 @@ div.footer-copyright p {
 }
 
 @media screen and (max-width: 767px) {
+  .about-header,
+  .work-header,
+  .skill-header {
+    font-size: 28px;
+
+  }
   .flex-center p {
     font-size: 20px;
   }
@@ -172,6 +177,10 @@ div.footer-copyright p {
 }
 
 @media screen and (max-width: 575px) {
+  .flex-center p {
+    font-size: 17px;
+  }
+
   div.about-col {
     height: 60vh;
   }
@@ -193,8 +202,14 @@ div.footer-copyright p {
   }
 
   .about-header,
-  .skill-header,
   .work-header {
     padding-top: 50px;
+    font-size: 24px;
+
+  }
+
+  .skill-header {
+    padding: 50px 0 10px 0;
+    font-size: 24px;
   }
 }
