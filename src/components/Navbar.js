@@ -32,17 +32,17 @@ class Navbar extends React.Component {
             {!this.state.isWideEnough && <MDBNavbarToggler onClick={this.onClick} />}
             <MDBCollapse isOpen={this.state.collapse} navbar>
             <MDBNavbarNav right>
-                <MDBNavItem className="p-2 hoverable waves-effect waves-light" active>
+                <MDBNavItem className="p-2 hoverable" active>
                 <Scrollchor to="#home" className="nav-link">
                 Home
                 </Scrollchor>
                 </MDBNavItem>
-                <MDBNavItem className="p-2 hoverable waves-effect waves-light">
+                <MDBNavItem className="p-2 hoverable">
                 <Scrollchor to="#about-component" className="nav-link">
                 About
                 </Scrollchor>
                 </MDBNavItem>
-                <MDBNavItem className="p-2 hoverable waves-effect waves-light">
+                <MDBNavItem className="p-2 hoverable">
                 <Scrollchor to="#latest-work" className="nav-link">
                 Latest Work
                 </Scrollchor>

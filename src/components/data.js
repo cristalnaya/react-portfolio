@@ -4,35 +4,35 @@ export const images =
         id: 1,
         src: './img/arcade-game.png',
         alt: 'arcade game',
-        title: 'arcade game',
+        title: 'JS Arcade Game',
         projectUrl: 'https://github.com/cristalnaya/frontend-nanodegree-arcade-game'
     },
     {
         id: 2,
         src: './img/memory-game.png',
         alt: 'memory game',
-        title: 'memory game',
+        title: 'JS Memory Game',
         projectUrl: 'https://github.com/cristalnaya/project-memory-game'
     },
     {
         id: 5,
         src: './img/restaurant-reviews.png',
         alt: 'Restaurant Reviews',
-        title: 'Restaurant Reviews',
+        title: 'JS Restaurant Reviews',
         projectUrl: 'https://github.com/cristalnaya/fend-restaurant-stage-1'
     },
     {
         id: 3,
         src: './img/myreads.png',
         alt: 'MyReads',
-        title: 'My Reads',
+        title: 'React My Reads',
         projectUrl: 'https://github.com/cristalnaya/reactnd-project-myreads'
     },
     {
         id: 4,
         src: './img/neighborhood-map.png',
         alt: 'Neighborhood Map',
-        title: 'Neighborhood Map',
+        title: 'React Neighborhood Map',
         projectUrl: 'https://github.com/cristalnaya/react-neighbourhood-map'
     },
 ]

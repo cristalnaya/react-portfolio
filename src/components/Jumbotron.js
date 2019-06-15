@@ -19,7 +19,7 @@ class JumbotronPage extends Component {
             <h1 className="h1-responsive display">Radostina Dimitrova</h1>
             </MDBAnimation>
             <hr className="my-2" color="white" />
-            <h4 className="role pb-4 h5-responsive">Front-End Web Developer</h4>
+            <h4 className="role pb-4 h4-responsive">Front-End Web Developer</h4>
             <MDBRow className="social-icons">
                 <MDBCol>
                 <SocialIcon className='social-icons' url="https://www.linkedin.com/in/radostina-dimitrova" target="_blank" rel="noopener noreferrer" />
