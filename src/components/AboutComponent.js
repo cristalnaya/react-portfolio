@@ -17,7 +17,7 @@ export default class AboutComponent extends Component {
             <MDBContainer fluid id="about-component" className="text-white flex-center flex-column h-auto pb-sm-3 pt-sm-3">
             <MDBRow className="">
                 <MDBCol sm="4" className="about-col">
-                    <About className="" />
+                  <About />
                 </MDBCol>
                 <MDBCol sm="8" className="skills-col pb-sm-3 pt-sm-3">
                  <Skills icons={icons} />
