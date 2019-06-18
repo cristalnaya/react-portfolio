@@ -17,9 +17,10 @@ const ProjectImage = ({ image }) => {
             <p 
             className="white-text text-capitalize"
             style={{
-                backgroundColor: 'rgba(0,0,0,0.7)',
+                backgroundColor: 'rgba(0,0,0,0.6)',
                 padding: '5px',
-                textAlign: 'center'
+                textAlign: 'center',
+                fontSize: '15px',
                 }}
                 >
                 {image.title}

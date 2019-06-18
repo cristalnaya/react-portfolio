@@ -35,6 +35,13 @@ export const images =
         title: 'React Neighborhood Map',
         projectUrl: 'https://github.com/cristalnaya/react-neighbourhood-map'
     },
+    {
+        id: 6,
+        src: './img/pomodoro-clock.png',
+        alt: 'Pomodoro Clock',
+        title: 'Pomodoro Clock',
+        projectUrl: 'https://github.com/cristalnaya/react-pomodoro-clock'
+    },
 ]
 
 export const icons = 
