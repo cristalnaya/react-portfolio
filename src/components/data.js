@@ -39,7 +39,7 @@ export const images =
         id: 6,
         src: './img/pomodoro-clock.png',
         alt: 'Pomodoro Clock',
-        title: 'Pomodoro Clock',
+        title: 'React Pomodoro Clock',
         projectUrl: 'https://github.com/cristalnaya/react-pomodoro-clock'
     },
 ]
